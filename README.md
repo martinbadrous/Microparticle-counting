@@ -39,7 +39,7 @@ given video, the more In-Focus the particles are presented in
 the frame.
 
 ## Figure to demonstrate
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/Robot-Arm-Visual-Servoing-Methodology.ppm?raw=true)
+![alt text](https://github.com/martin-ss/Microparticle-counting/blob/main/DEMO-PARTICLES%20(1)%20(1)_072.jpg?raw=true)
 
 
   
@@ -66,15 +66,14 @@ the frame.
 
 Sample:
 
-* From the Crrent repo: git clone  https://github.com/martin-ss/ROS-Line-following-automatic-parking
-
+* From the Crrent repo: git clone  https://github.com/martin-ss/Microparticle-counting
 
 ## Usage
 
 * This project is aimed to Count micro particles using two different detection methods with tracking
-### Screenshot of the Environment
+### Result of the Different focal points using the different detection methods
 
-![alt text](https://github.com/martin-ss/ROS_TurtleBot3/blob/main/ros2.png?raw=true)
+![alt text](https://github.com/martin-ss/Microparticle-counting/blob/main/Figure%202021-03-07%20211641.png?raw=true)
 
 
 
