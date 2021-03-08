@@ -1,34 +1,49 @@
 # Microparticle-counting
 Microscopic video streams are used to count micro particles using detection and tracking algorithm
-# ROS-Line-following-automatic-parking
+# Microparticle-counting
 
-# Using ROS_TurtleBot3
+# Microscopic video streams are used to count micro particles using detection and tracking algorithm
 
 ## Abstract
 
-* Demonstration of Visual Servoing project is developed under ROS environment and using TheConstruct platform with TurtleBot running on Gazebo web version           “Gzweb”.   The main idea of the project is to develop an application running on TurtleBot to solve different navigation problems. This project can 
-  be sub-divided into 2  parts, Line following task and Parking task. For each task, control and simulation is achieved through different implementations, which     in order to be solved, a certain skills related to ROS basics and their programming architecture understanding should be mastered .On top of that, 
-  Our simulated ROS environment provided by The-Construct website is exploited with different ROS online courses. In this report, a detailed guideline 
-  about the implementation will be presented in order to deliver the key features of our approach.
+*Aparticle counting criterion is used to choose the
+best focal length, where a best-quality video is considered to
+have the maximum number of particles, with two methods,
+background subtraction for detection and centroids differences
+for tracking at first, after that, Hough Circles detection.
 
 
 ## See DEMO examples:
 
-* <https://drive.google.com/drive/folders/1NVIkTawzJ-T4mepiQFDwKJSvNbRyF0Iy>
+* <https://drive.google.com/drive/u/1/folders/1ahKUEzvxmJj1uRt2Uky9X1Vsl6TGsSdv>
 
 ## Introduction
 
-*Visual servoing refers to closed loop position control of a robot end-effector, using measurements from a vision sensor as mentioned in [3]. Two kinds of configurations for visual servo control are most frequently encountered in literature:\
-1-Eye-in-hand\
-2-Eye-to-hand
+*VFocal-length manual adjustment can be subject to human
+error, for that, we are trying to find the best focal point of a
+given video stream capturing microparticles flowing in a
+chip, this chip that has a cross-sectional area of a rectangle
+and it has three input tubes from one side, one tube for the
+feed of microparticles-water mixture and the other two tubes
+pump particles-free water that acts as focusing fluid, aiming
+to focus the particles in one lateral space, experimentally
+speaking, the flowing particles are not focused in one lateral
+space, in fact, and with different observations, we found the
+focused particles flow in a range of 100 Micro-meter across
+the cross-sectional area of the chip. For that, we are
+proposing two methods to find the lateral space that most
+particles flow at, basically, these two methods to partially
+automatize focal-length adjustment by counting the detected
+and tracked microparticles in the given video, under the
+assumption of the more we can count and detect particles in a
+given video, the more In-Focus the particles are presented in
+the frame.
 
 ## Figure to demonstrate
 ![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/Robot-Arm-Visual-Servoing-Methodology.ppm?raw=true)
 
 
   
-## Pipeline
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/visual%20servoing%20pipeline-1.png?raw=true)
 
 ## Table of contents
 
@@ -57,22 +72,15 @@ Sample:
 
 ## Usage
 
-* This project is aimed to control the navigation of TurtleBot3 for line following and automatic parking tasks based on Image based visual servoing
+* This project is aimed to Count micro particles using two different detection methods with tracking
 ### Screenshot of the Environment
 
 ![alt text](https://github.com/martin-ss/ROS_TurtleBot3/blob/main/ros2.png?raw=true)
 
 
 
-## Process (Steps)
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/final%20gear-1.png?raw=true)
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/final%20gear-2.png?raw=true)
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/final%20gear-3.png?raw=true)
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/final%20gear-4.png?raw=true)
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/final%20gear-4.png?raw=true)
-![alt text](https://github.com/martin-ss/ROS-Line-following-automatic-parking/blob/main/final%20gear-5.png?raw=true)
 
 
 
-## About The Visual servoing Project
-It is impelemneted as a part of a course module named visual servoing and tracking for Master-2 
+## About The Project
+It is impelemneted as a part of an introduction of a master-2 degree internship
