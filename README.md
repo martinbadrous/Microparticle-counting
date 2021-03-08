@@ -77,7 +77,16 @@ Sample:
 
 
 
-
+## Refrences
+      [1] M. Yokoyama; T. Poggio, A contour based object detection and tracking.
+      [2]https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contour_features/py_contour_features.html
+      [3]https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/
+      [4]https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
+      [5]https://gist.github.com/adioshun/779738c3e28151ffbb9dc7d2b13c2c0a
+      [6]https://stackoverflow.com/questions/12330745/blob-tracking-algorithm
+      [7]https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_bg_subtraction/py_bg_subtraction.html
+      [8]https://learnopencv.com/multitracker-multiple-object-tracking-using-opencv-c-python/
+      [9] Benjamin Midtvedt et al, Quantitative Digital Microsopy with Deep learning.
 
 
 ## About The Project
