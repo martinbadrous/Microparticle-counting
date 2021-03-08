@@ -18,7 +18,7 @@ for tracking at first, after that, Hough Circles detection.
 
 ## Introduction
 
-*VFocal-length manual adjustment can be subject to human
+*Focal-length manual adjustment can be subject to human
 error, for that, we are trying to find the best focal point of a
 given video stream capturing microparticles flowing in a
 chip, this chip that has a cross-sectional area of a rectangle
@@ -66,7 +66,7 @@ the frame.
 
 Sample:
 
-* From the Crrent repo: git clone  https://github.com/martin-ss/Microparticle-counting
+* From the Current repo: git clone  https://github.com/martin-ss/Microparticle-counting
 
 ## Usage
 
